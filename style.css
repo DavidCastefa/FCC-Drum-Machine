@@ -1,0 +1,48 @@
+body {
+    background-color: #7395AE;
+    color: black;
+}
+
+#pageTitle {
+    background-color: #d1c8c2;
+    border: 1px solid black;
+    padding-top: 5px;
+}
+#display {
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 20vh;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8vh;
+    background-color:  #88b3d1;
+}
+
+#drum-pads {
+    height: 40vh;
+    width: 95vw;
+    margin-left: 1vw;
+    margin-right: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.drum-pad {
+    border: 1px solid black;
+    height: 20vh;
+    width: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1vw;
+    background-color: #d1c8c2;
+    border-radius: 5px;
+    box-shadow: 3px 3px black;
+
+}
